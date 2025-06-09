@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df18087d6cc245fbbe0550a8db175ccc, type: 3}
+  m_Name: CollectionTest
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Collection des goats
+  <Description>k__BackingField: "Les mecs de l'\xE9cole mdr"
+  <ItemDatas>k__BackingField:
+  - {fileID: 11400000, guid: 18c7eb3edaa2ffd4aa3d0a1c339f3940, type: 2}
+  - {fileID: 11400000, guid: 25939b465cfec5f4694daf84197108b4, type: 2}
+  - {fileID: 11400000, guid: b77133183f0b16b41bb45ec0605e0c6c, type: 2}
+  - {fileID: 11400000, guid: bf76d560347b26e4d93bca5501f015cf, type: 2}

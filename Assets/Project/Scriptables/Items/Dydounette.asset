@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd0f658f440ca374f83ed787d12891c2, type: 3}
+  m_Name: Dydounette
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Dydou
+  <Description>k__BackingField: vraiment le naze du code
+  <itemPrefab>k__BackingField: {fileID: 7916044594972551182, guid: cb80e38b0cd4b2847b5814904dfc09e4, type: 3}
