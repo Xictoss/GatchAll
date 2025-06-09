@@ -1,0 +1,3 @@
+-systeme de Collection.
+-systeme d'opening (rareté, chance de loot,...)
+-systeme de déterioration des assets.
