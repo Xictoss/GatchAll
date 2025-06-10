@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -14,45 +15,35 @@ namespace GatchAll.Project.Script.Collections
         [field: SerializeField] public TextMeshProUGUI Text { get; private set; }
 
         private Item currentUnboxedItem;
-
-        public void GetUnboxedItemData()
+        private float chancePercent;
+        
+        public void OpenCollection()
         {
-            ItemData itemData = Data.ItemDatas[Random.Range(0, Data.ItemDatas.Count)];
-            currentUnboxedItem = itemData.GetItem();
-            Text.text = $"item unlocked: {currentUnboxedItem.Data.Name} Float: {currentUnboxedItem.Float} Description : {currentUnboxedItem.Data.Description}, Rarity :{currentUnboxedItem.Data.Rarity}";
+            ItemData selected = GetRandomItem();
+            currentUnboxedItem = selected.GetItem();
+            Text.text = $"🎯 Item tiré : {selected.name} chance : {Math.Round(chancePercent), 2}%";
         }
 
-        
-        /*Debug pour spawn les trucs
-        private void Update()
+        private ItemData GetRandomItem()
         {
-            if (Input.GetKeyDown(Key))
-            {
-                GetUnboxedItemData();
-                if (currentUnboxedItem.Data.itemPrefab == null)
-                {
-                    Debug.LogWarning("No item prefab found!");
-                }
-                
-                if (DebugGO != null)
-                {
-                    Destroy(DebugGO);
-                    DebugGO = null;
-                }
-                if (currentUnboxedItem.Data.itemPrefab != null && DebugTransform != null)
-                {
-                    DebugGO = Instantiate(currentUnboxedItem.Data.itemPrefab, DebugTransform.position, Quaternion.identity);
-                    Debug.Log("Item Prefab found!");
+            float totalWeight = 0f;
+            foreach (ItemData item in Data.ItemDatas) 
+                totalWeight += item.Weight;
 
-                }
-                
-                if (currentUnboxedItem != null)
-                {
-                    Debug.Log($"item unlocked: {currentUnboxedItem.Data.Name} with" + 
-                              $" a float value of {currentUnboxedItem.Float} and a description of {currentUnboxedItem.Data.Description}" );
-                }
+            float roll = Random.Range(0f, totalWeight);
+            Debug.Log(roll);
+            float cumulative = 0f;
+
+            foreach (ItemData item in Data.ItemDatas)
+            { 
+                chancePercent = (item.Weight / totalWeight) * 100f;
+                cumulative += item.Weight;
+                if (roll < cumulative)
+                    return item;
             }
-            Fin debug pour spawn les trucs*/
 
+            Debug.LogWarning("❌ Aucun item sélectionné !");
+            return Data.ItemDatas.Last();
         }
     }
+}

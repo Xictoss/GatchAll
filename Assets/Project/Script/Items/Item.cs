@@ -9,7 +9,7 @@ namespace GatchAll
     {
         [field: SerializeField] public ItemData Data { get; private set; }
         [field: SerializeField] public float Float { get; private set; }
-
+        
         //Constructor for Items
         public Item(ItemData data)
         {

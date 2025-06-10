@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Marina
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Marina
-  <Rarity>k__BackingField: rare
   <Description>k__BackingField: Les ennemies vraimentttttt
+  <Rarity>k__BackingField: rare
+  <Weight>k__BackingField: 10
   <itemPrefab>k__BackingField: {fileID: 1199883698476633023, guid: dd0a198b7da282b42b19382b054d0baa, type: 3}

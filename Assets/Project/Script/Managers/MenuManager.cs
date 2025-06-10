@@ -47,13 +47,13 @@ namespace GatchAll.Project.Script.Managers
 
         public void OpenCaseCollection1()
         {
-            Collection1.GetUnboxedItemData();
+            Collection1.OpenCollection();
             ItemText1.text = Collection1.Text.text;
         }
         
         public void OpenCaseCollection2()
         {
-            Collection2.GetUnboxedItemData();
+            Collection2.OpenCollection();
             ItemText2.text = Collection2.Text.text;
         }
         

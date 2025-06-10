@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Valentin
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Valou
-  <Rarity>k__BackingField: Legendary
   <Description>k__BackingField: "Le mec qui joue avec les lumi\xE8res"
+  <Rarity>k__BackingField: Legendary
+  <Weight>k__BackingField: 5
   <itemPrefab>k__BackingField: {fileID: 7253262823464170069, guid: b01ecab7ebe05ef449fb5a262ef07a92, type: 3}

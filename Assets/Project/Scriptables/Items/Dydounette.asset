@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Dydounette
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Dydou
-  <Rarity>k__BackingField: Commun
   <Description>k__BackingField: vraiment le naze du code
+  <Rarity>k__BackingField: Commun
+  <Weight>k__BackingField: 50
   <itemPrefab>k__BackingField: {fileID: 7916044594972551182, guid: cb80e38b0cd4b2847b5814904dfc09e4, type: 3}
