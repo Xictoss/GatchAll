@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Hugo
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Hugro
+  <Rarity>k__BackingField: Uncommun
   <Description>k__BackingField: Le mec qui fait les musics
   <itemPrefab>k__BackingField: {fileID: 974796279808987211, guid: 5fe71e323609ce7408819fdade26301d, type: 3}

@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Lois
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Lolo
+  <Rarity>k__BackingField: Rare
   <Description>k__BackingField: Le mec qui suce lupeni
   <itemPrefab>k__BackingField: {fileID: 1408936291244317724, guid: f783017761a06904589ad6172c6d0b0c, type: 3}

@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Mounia
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Mounia
+  <Rarity>k__BackingField: BlackMarket
   <Description>k__BackingField: Mes VFX houin houin
   <itemPrefab>k__BackingField: {fileID: 1408936291244317724, guid: f783017761a06904589ad6172c6d0b0c, type: 3}

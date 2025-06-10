@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Mathis
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Mathis
+  <Rarity>k__BackingField: Legendary
   <Description>k__BackingField: 2 mois pour des avant bras serieux ?!
   <itemPrefab>k__BackingField: {fileID: 974796279808987211, guid: 5fe71e323609ce7408819fdade26301d, type: 3}

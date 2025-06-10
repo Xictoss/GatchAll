@@ -19,7 +19,7 @@ namespace GatchAll.Project.Script.Collections
         {
             ItemData itemData = Data.ItemDatas[Random.Range(0, Data.ItemDatas.Count)];
             currentUnboxedItem = itemData.GetItem();
-            Text.text = $"item unlocked: {currentUnboxedItem.Data.Name} Float: {currentUnboxedItem.Float} Description : {currentUnboxedItem.Data.Description}";
+            Text.text = $"item unlocked: {currentUnboxedItem.Data.Name} Float: {currentUnboxedItem.Float} Description : {currentUnboxedItem.Data.Description}, Rarity :{currentUnboxedItem.Data.Rarity}";
         }
 
         

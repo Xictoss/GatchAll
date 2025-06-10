@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Maena
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Maena
+  <Rarity>k__BackingField: Uncommun
   <Description>k__BackingField: Celle qui fait les dessins de boutons
   <itemPrefab>k__BackingField: {fileID: 7253262823464170069, guid: b01ecab7ebe05ef449fb5a262ef07a92, type: 3}
